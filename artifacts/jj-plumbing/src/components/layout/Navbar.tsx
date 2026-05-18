@@ -79,12 +79,12 @@ export function Navbar() {
           {/* Desktop Actions */}
           <div className="hidden md:flex items-center gap-4">
             <a
-              href="tel:+27000000000"
+              href="tel:+27820754713"
               onClick={handlePhoneClick}
               className="text-gray-900 font-bold hover:text-primary transition-colors flex items-center gap-2"
             >
               <Phone className="h-4 w-4" />
-              <span className="hidden lg:inline">000 000 0000</span>
+              <span className="hidden lg:inline">082 075 4713</span>
             </a>
             <Link href="/contact">
               <Button onClick={handleCTAClick} className="font-bold">
@@ -96,7 +96,7 @@ export function Navbar() {
           {/* Mobile Menu Button */}
           <div className="flex items-center gap-4 md:hidden">
             <a
-              href="tel:+27000000000"
+              href="tel:+27820754713"
               onClick={handlePhoneClick}
               className="p-2 text-gray-900 bg-gray-100 rounded-full hover:bg-gray-200"
               aria-label="Call Us"

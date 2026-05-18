@@ -40,7 +40,7 @@ export default function Contact() {
                   
                   <div className="space-y-6">
                     <a 
-                      href="tel:+27000000000" 
+                      href="tel:+27820754713" 
                       onClick={handlePhoneClick}
                       className="flex items-start gap-4 group"
                     >
@@ -49,7 +49,7 @@ export default function Contact() {
                       </div>
                       <div>
                         <p className="text-sm text-gray-500 font-medium">Call Us</p>
-                        <p className="text-lg font-bold text-gray-900 group-hover:text-primary transition-colors">000 000 0000</p>
+                        <p className="text-lg font-bold text-gray-900 group-hover:text-primary transition-colors">082 075 4713</p>
                       </div>
                     </a>
 
@@ -69,7 +69,7 @@ export default function Contact() {
                   <h3 className="text-xl font-bold mb-4">Emergency Plumbing?</h3>
                   <p className="text-gray-300 mb-6 text-sm">Don't wait for an email reply. Call us directly for urgent plumbing matters.</p>
                   <a 
-                    href="tel:+27000000000" 
+                    href="tel:+27820754713" 
                     onClick={handlePhoneClick}
                     className="block w-full py-4 bg-white text-gray-900 text-center font-bold rounded-lg hover:bg-gray-100 transition-colors"
                   >

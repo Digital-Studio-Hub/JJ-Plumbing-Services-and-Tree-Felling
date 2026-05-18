@@ -18,7 +18,7 @@ export function WhatsAppButton() {
 
   return (
     <a
-      href="https://wa.me/27000000000?text=Hi%20JJ%20Plumbing%2C%20I%27d%20like%20a%20quote"
+      href="https://wa.me/27820754713?text=Hi%20JJ%20Plumbing%2C%20I%27d%20like%20a%20quote"
       target="_blank"
       rel="noopener noreferrer"
       onClick={handleClick}
