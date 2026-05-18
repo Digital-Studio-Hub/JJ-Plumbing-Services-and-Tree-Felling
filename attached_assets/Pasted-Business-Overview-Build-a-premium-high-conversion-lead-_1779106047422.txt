@@ -1,0 +1,687 @@
+Business Overview
+Build a premium, high-conversion lead-generation website for JJ Plumbing Services and Tree Felling, a multi-service contractor providing plumbing installations, plumbing maintenance, site clearing, tree felling, and farm clearing.
+
+Business Name: JJ Plumbing Services and Tree Felling
+Domain: https://jjplumbingpe.co.za
+Website Type: Lead-generation service website
+Primary Goal: Generate quote requests, phone calls, and WhatsApp enquiries
+Google Analytics Code: G-MXG4S9F4F8
+
+Core Business Description
+JJ Plumbing Services and Tree Felling provides reliable services for:
+
+New plumbing installations
+
+Plumbing maintenance
+
+Site clearing
+
+Tree felling of all tree sizes
+
+Farm clearing
+
+The website must communicate that the business is capable, reliable, hands-on, and able to handle both residential and larger outdoor clearing work.
+
+Brand Positioning
+JJ Plumbing Services and Tree Felling must be positioned as:
+
+A reliable plumbing contractor
+
+A capable tree felling specialist
+
+A strong site and farm clearing service provider
+
+A practical, hands-on local service business
+
+A trusted partner for homes, farms, and properties
+
+The website must not look like a casual handyman page. It must feel structured, professional, and ready for serious work.
+
+Primary Website Objectives
+The website must:
+
+Generate service enquiries and quote requests
+
+Explain all services clearly
+
+Build trust through strong service positioning
+
+Rank locally for plumbing, tree felling, and clearing services
+
+Track visitor behaviour and conversions through Google Analytics
+
+No prices must be shown. All services are quote-based.
+
+Target Market
+Homeowners
+
+Landowners
+
+Farmers
+
+Property developers
+
+Construction companies
+
+Commercial property owners
+
+Estate managers
+
+Property maintenance clients
+
+Website Structure: Sitemap
+/
+├── Home
+├── About Us
+├── Services
+│   ├── Plumbing Installations
+│   ├── Plumbing Maintenance
+│   ├── Tree Felling
+│   ├── Site Clearing
+│   └── Farm Clearing
+├── Gallery
+├── Areas We Serve
+├── Contact / Request a Quote
+├── Privacy Policy
+└── Terms & Conditions
+
+Page Requirements
+1. Home Page
+Hero Section
+Headline:
+
+Plumbing, Tree Felling & Site Clearing Services You Can Trust
+
+Subheadline:
+
+Professional plumbing installations, maintenance, tree felling, site clearing, and farm clearing for homes, businesses, and farms.
+
+Primary CTAs:
+
+Request a Quote
+
+View Services
+
+Contact Us
+
+Hero visual direction:
+
+Plumbing work
+
+Tree felling work
+
+Outdoor clearing
+
+Strong contractor-style imagery
+
+Professional team or equipment visuals
+
+Service Overview Section
+Display five service cards:
+
+New Plumbing Installations
+
+Plumbing Maintenance
+
+Tree Felling
+
+Site Clearing
+
+Farm Clearing
+
+Each card must include:
+
+Short description
+
+Relevant icon
+
+CTA: Learn More
+
+Trust Section
+Include:
+
+Reliable workmanship
+
+Safe tree felling practices
+
+Capable of handling large trees
+
+Residential, commercial, and farm work
+
+Quote-based service
+
+Clear communication
+
+CTA Banner
+Text:
+
+Need plumbing work, tree removal, or site clearing done properly?
+
+CTA:
+
+Request a Free Quote
+
+2. About Us Page
+Purpose: Build credibility.
+
+Suggested copy direction:
+
+JJ Plumbing Services and Tree Felling provides practical, reliable, and professional services for plumbing, tree felling, and clearing work. Whether the job involves new plumbing installations, ongoing maintenance, removing large trees, clearing a site, or preparing farm land, the team is ready to assist with dependable service and clear communication.
+
+Tone:
+
+Direct
+
+Professional
+
+Strong
+
+Trustworthy
+
+3. Services Page
+Create individual service sections or dedicated service pages.
+
+Plumbing Installations
+Content focus:
+
+New plumbing systems
+
+Residential plumbing
+
+Commercial plumbing
+
+Installation support for renovations and new builds
+
+CTA:
+
+Request Plumbing Installation
+
+Plumbing Maintenance
+Content focus:
+
+Leak repairs
+
+General maintenance
+
+Fault finding
+
+Preventative plumbing care
+
+CTA:
+
+Request Plumbing Maintenance
+
+Tree Felling
+Content focus:
+
+Tree cutting and removal
+
+Large tree felling
+
+Overgrown or dangerous trees
+
+Safe removal planning
+
+Key message:
+
+No matter how big the tree is, we can handle it.
+
+CTA:
+
+Request Tree Felling
+
+Site Clearing
+Content focus:
+
+Clearing vegetation
+
+Removing unwanted growth
+
+Preparing land for work
+
+Construction site preparation
+
+CTA:
+
+Request Site Clearing
+
+Farm Clearing
+Content focus:
+
+Farm land clearing
+
+Bush and vegetation removal
+
+Large-area clearing
+
+Agricultural preparation support
+
+CTA:
+
+Request Farm Clearing
+
+4. Gallery Page
+Purpose: Visual proof.
+
+Include:
+
+Plumbing project images
+
+Tree felling before and after
+
+Site clearing results
+
+Farm clearing images
+
+Equipment and team photos
+
+If real images are not available yet, use high-quality placeholders and keep the structure ready for future client images.
+
+Gallery requirements:
+
+Grid layout
+
+Lightbox preview
+
+WebP images
+
+Lazy loading
+
+SEO-friendly alt text
+
+5. Areas We Serve Page
+Create a local SEO section.
+
+Content must include:
+
+Main service area once confirmed
+
+Surrounding areas
+
+“Near me” SEO phrasing
+
+Clear service availability wording
+
+Example heading:
+
+Plumbing, Tree Felling & Clearing Services Near You
+
+6. Contact / Request a Quote Page
+Form fields:
+
+Name
+
+Phone number
+
+Email
+
+Service required
+
+Property type: Home / Business / Farm / Site
+
+Message
+
+CTA:
+
+Request Your Quote
+
+Contact page must include:
+
+Contact form
+
+Click-to-call button when number is confirmed
+
+WhatsApp button if number is provided later
+
+Email routing
+
+Google Analytics conversion tracking on form submission
+
+Design & UI/UX Direction
+Visual Style
+Strong
+
+Practical
+
+Professional
+
+Clean
+
+Contractor-grade
+
+Easy to navigate
+
+Avoid:
+
+Cheap handyman-style layouts
+
+Cluttered sections
+
+Heavy animations
+
+Overly decorative visuals
+
+Recommended Colour Palette
+Deep Forest Green
+#1F5E3B
+
+Use for:
+
+Primary buttons
+
+Service icons
+
+Tree clearing sections
+
+Trust elements
+
+Clean White
+#FFFFFF
+
+Use for:
+
+Main backgrounds
+
+Forms
+
+Service cards
+
+Charcoal Black
+#1F2937
+
+Use for:
+
+Headings
+
+Footer
+
+Strong text contrast
+
+Earth Brown
+#7A4E2A
+
+Use for:
+
+Outdoor clearing accents
+
+Farm clearing sections
+
+Supporting highlights
+
+Soft Grey
+#F5F7FA
+
+Use for:
+
+Section backgrounds
+
+Cards
+
+Gallery blocks
+
+Utility Blue
+#2563EB
+
+Use sparingly for:
+
+Plumbing-specific highlights
+
+Links
+
+Secondary CTAs
+
+Typography
+Headings
+Use:
+
+Montserrat
+
+Poppins
+
+Inter
+
+Body Text
+Use:
+
+Open Sans
+
+Inter
+
+Lato
+
+Typography must be readable, strong, and mobile-friendly.
+
+Images & Media
+Use high-quality images showing:
+
+Plumbing installations
+
+Plumbing maintenance
+
+Tree cutting
+
+Large tree removal
+
+Land clearing
+
+Farm clearing
+
+Contractor tools and equipment
+
+Image requirements:
+
+WebP format
+
+Lazy loading
+
+Optimised file sizes
+
+Mobile responsive
+
+Alt text for every image
+
+Alt text examples:
+
+“JJ Plumbing Services new plumbing installation”
+
+“Professional tree felling service for large trees”
+
+“Farm clearing and site clearing service”
+
+“Plumbing maintenance service for residential properties”
+
+Lead Generation Features
+Mandatory:
+
+Quote request form
+
+Click-to-call once number is confirmed
+
+WhatsApp button if number is supplied
+
+Clear CTAs on every page
+
+Service-specific enquiry buttons
+
+Google Analytics conversion tracking
+
+No pricing tables
+
+No pop-ups
+
+CTA examples:
+
+Request a Quote
+
+Book Tree Felling
+
+Request Plumbing Help
+
+Clear My Site
+
+Contact Us Today
+
+SEO Strategy
+Target Keywords
+Plumbing services
+
+New plumbing installations
+
+Plumbing maintenance
+
+Tree felling services
+
+Large tree removal
+
+Site clearing services
+
+Farm clearing services
+
+Plumbing and tree felling near me
+
+SEO Implementation
+Organization schema
+
+LocalBusiness schema
+
+Service schema
+
+FAQ schema
+
+Optimised meta titles
+
+Optimised meta descriptions
+
+Sitemap.xml
+
+Robots.txt
+
+Image alt text
+
+Clean URLs
+
+Internal linking between service pages
+
+Suggested Meta Titles
+JJ Plumbing Services and Tree Felling | Plumbing & Clearing Services
+
+Tree Felling and Site Clearing Services | JJ Plumbing Services
+
+Plumbing Installations and Maintenance | JJ Plumbing Services
+
+Google Analytics & Tracking
+Google Analytics is connected.
+
+Use this tracking code:
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MXG4S9F4F8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MXG4S9F4F8');
+</script>
+
+Tracking requirements:
+
+Page views
+
+Contact form submissions
+
+Quote request clicks
+
+Service page visits
+
+CTA button clicks
+
+Phone click events once number is confirmed
+
+WhatsApp click events once number is confirmed
+
+Technical Requirements
+Mobile-first responsive design
+
+Fast loading under 1.5 seconds where possible
+
+HTTPS secure
+
+CMS-based content management
+
+SEO-friendly URLs
+
+WebP image optimisation
+
+Lazy-loaded images
+
+Contact form validation
+
+Google Analytics installed
+
+Search Console ready
+
+Sitemap.xml
+
+Robots.txt
+
+Accessible colour contrast
+
+Version 1 Exclusions
+Do not include:
+
+E-commerce
+
+Pricing tables
+
+Customer login system
+
+Booking calendar
+
+Live chat
+
+Heavy animations
+
+Pop-ups
+
+Payment gateway
+
+Version 1 must focus on services, SEO, trust, and quote enquiries.
+
+Final Deliverables
+Premium lead-generation website for JJ Plumbing Services and Tree Felling
+
+Homepage
+
+About page
+
+Service pages
+
+Gallery page
+
+Areas served page
+
+Contact / quote request page
+
+Google Analytics installed
+
+SEO-ready structure
+
+Mobile-first responsive build
+
+CMS-ready content structure
+
+Fast, clean, professional UI
+
+Success Standard
+The website must:
+
+Clearly communicate plumbing, tree felling, and clearing services
+
+Build trust for both small and large jobs
+
+Convert visitors into quote requests
+
+Be ready for Google Ads and SEO growth
+
+Feel professional, capable, and reliable

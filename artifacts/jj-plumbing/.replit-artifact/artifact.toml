@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "JJ Plumbing Services and Tree Felling"
+version = "1.0.0"
+id = "artifacts/jj-plumbing"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 21065
+
+[services.development]
+run = "pnpm --filter @workspace/jj-plumbing run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/jj-plumbing", "run", "build" ]
+publicDir = "artifacts/jj-plumbing/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "21065"
+BASE_PATH = "/"
