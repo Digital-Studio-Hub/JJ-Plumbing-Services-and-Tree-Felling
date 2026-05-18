@@ -10,6 +10,8 @@ servers:
 tags:
   - name: health
     description: Health operations
+  - name: leads
+    description: Lead generation, quote requests, and email
 paths:
   /healthz:
     get:
@@ -24,6 +26,68 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/HealthStatus"
+  /send-mail:
+    post:
+      operationId: sendMail
+      tags: [leads]
+      summary: Send a transactional email via ZeptoMail
+      description: Generic transactional email endpoint used by all website forms.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/MailInput"
+      responses:
+        "200":
+          description: Email accepted for delivery
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/MailResult"
+        "400":
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+        "500":
+          description: Mail provider error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+  /quote-request:
+    post:
+      operationId: submitQuoteRequest
+      tags: [leads]
+      summary: Submit a quote request
+      description: Submits a quote request from the website. Sends admin + user confirmation emails via ZeptoMail.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/QuoteRequestInput"
+      responses:
+        "200":
+          description: Quote request submitted
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/QuoteRequestResult"
+        "400":
+          description: Invalid request
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+        "500":
+          description: Server error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
 components:
   schemas:
     HealthStatus:
@@ -33,4 +97,76 @@ components:
           type: string
       required:
         - status
-
+    ErrorResponse:
+      type: object
+      required: [error]
+      properties:
+        error:
+          type: string
+    QuoteRequestInput:
+      type: object
+      required: [name, phone, email, service, propertyType, message]
+      properties:
+        name:
+          type: string
+          minLength: 1
+        phone:
+          type: string
+          minLength: 1
+        email:
+          type: string
+          format: email
+        service:
+          type: string
+          enum:
+            - plumbing-installations
+            - plumbing-maintenance
+            - tree-felling
+            - site-clearing
+            - farm-clearing
+            - other
+        propertyType:
+          type: string
+          enum:
+            - home
+            - business
+            - farm
+            - site
+        message:
+          type: string
+          minLength: 1
+        location:
+          type: ["string", "null"]
+    QuoteRequestResult:
+      type: object
+      required: [success, message]
+      properties:
+        success:
+          type: boolean
+        message:
+          type: string
+    MailInput:
+      type: object
+      required: [to, subject, body]
+      properties:
+        to:
+          type: string
+          format: email
+        toName:
+          type: ["string", "null"]
+        subject:
+          type: string
+          minLength: 1
+        body:
+          type: string
+          minLength: 1
+        replyTo:
+          type: ["string", "null"]
+    MailResult:
+      type: object
+      required: [success]
+      properties:
+        success:
+          type: boolean
+        messageId:
+          type: ["string", "null"]

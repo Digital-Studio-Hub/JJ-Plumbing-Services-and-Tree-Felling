@@ -1,0 +1,44 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "tzvJ-osRFOcI4Icmu17oZ"
+uri = "file://artifacts/jj-plumbing/public/images/hero.png"
+type = "image"
+title = "Contractor team with truck"
+
+[[generated]]
+id = "o-kIve5EdfkdzuI13kQtE"
+uri = "file://artifacts/jj-plumbing/public/images/plumbing-installations.png"
+type = "image"
+title = "Plumbing pipework installation"
+
+[[generated]]
+id = "t-_ytS2viprVlsVCF8IJL"
+uri = "file://artifacts/jj-plumbing/public/images/plumbing-maintenance.png"
+type = "image"
+title = "Plumber doing maintenance"
+
+[[generated]]
+id = "96_lWW72BF4pIKJ82ZHs_"
+uri = "file://artifacts/jj-plumbing/public/images/tree-felling.png"
+type = "image"
+title = "Tree felling action"
+
+[[generated]]
+id = "wEvtRsU3HP1RvrT0tnKaM"
+uri = "file://artifacts/jj-plumbing/public/images/site-clearing.png"
+type = "image"
+title = "Site clearing machinery"
+
+[[generated]]
+id = "OJ8Y3yyXPufrZ6PjQNrB-"
+uri = "file://artifacts/jj-plumbing/public/images/farm-clearing.png"
+type = "image"
+title = "Farm bush clearing"
+
+[[generated]]
+id = "o5i-v3xV-gfvu6LTyAWkb"
+uri = "file://artifacts/jj-plumbing/public/images/about.png"
+type = "image"
+title = "Team and equipment"

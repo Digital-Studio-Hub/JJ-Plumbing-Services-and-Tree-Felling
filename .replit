@@ -26,3 +26,15 @@ externalPort = 8080
 [[ports]]
 localPort = 8081
 externalPort = 80
+
+[[ports]]
+localPort = 21065
+externalPort = 3000
+
+[userenv]
+
+[userenv.shared]
+MAIL_FROM = "noreply@jjplumbingpe.co.za"
+MAIL_FROM_NAME = "JJ Plumbing Services"
+ADMIN_EMAIL = "info@jjplumbingpe.co.za"
+ADMIN_NAME = "JJ Plumbing Admin"
