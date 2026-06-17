@@ -40,7 +40,9 @@ if (process.env["NODE_ENV"] === "production") {
   const publicDir = path.resolve(process.cwd(), "public");
   if (existsSync(publicDir)) {
     app.use(express.static(publicDir));
-    app.get("*", (_req, res) => {
+    // app.get("*", ...) throws in Express v5 / path-to-regexp v8.
+    // app.use() with no path is a safe catch-all for SPA fallback.
+    app.use((_req, res) => {
       res.sendFile(path.join(publicDir, "index.html"));
     });
   }
