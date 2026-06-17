@@ -1,6 +1,8 @@
 import express, { type Express } from "express";
 import cors from "cors";
 import pinoHttp from "pino-http";
+import path from "path";
+import { existsSync } from "fs";
 import router from "./routes";
 import { logger } from "./lib/logger";
 
@@ -30,5 +32,18 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.use("/api", router);
+
+// In production, serve the compiled React frontend and fall back to index.html
+// for client-side routing. The Dockerfile copies the Vite build output to
+// ./public/ relative to the container's WORKDIR.
+if (process.env["NODE_ENV"] === "production") {
+  const publicDir = path.resolve(process.cwd(), "public");
+  if (existsSync(publicDir)) {
+    app.use(express.static(publicDir));
+    app.get("*", (_req, res) => {
+      res.sendFile(path.join(publicDir, "index.html"));
+    });
+  }
+}
 
 export default app;

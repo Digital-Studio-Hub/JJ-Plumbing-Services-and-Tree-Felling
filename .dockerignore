@@ -1,0 +1,26 @@
+# Dependencies installed by the build stage — don't send to Docker daemon
+node_modules
+**/node_modules
+
+# Build artefacts (rebuilt inside Docker)
+**/dist
+**/.turbo
+
+# Local env files (never bake secrets into the image)
+.env
+.env.*
+!.env.example
+
+# Editor / OS noise
+.vscode
+.idea
+*.log
+.DS_Store
+Thumbs.db
+
+# Git history (not needed in image)
+.git
+.gitignore
+
+# Test / sandbox apps not needed in production
+artifacts/mockup-sandbox
