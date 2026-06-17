@@ -54,8 +54,8 @@ COPY --from=builder /workspace/artifacts/api-server/dist/ ./dist/
 COPY --from=builder /workspace/artifacts/jj-plumbing/dist/public/ ./public/
 
 ENV NODE_ENV=production
+ENV PORT=8080
 
-# Cloud Run injects PORT automatically; the app reads it at startup
 EXPOSE 8080
 
 CMD ["node", "--enable-source-maps", "./dist/index.mjs"]
