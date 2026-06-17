@@ -27,10 +27,6 @@
 # ============================================================================
 minimumReleaseAge: 1440
 
-# esbuild requires its postinstall script to link the platform-specific binary.
-onlyBuiltDependencies:
-  - esbuild
-
 minimumReleaseAgeExclude:
   # Exclude @replit scoped packages from the minimum release age check.
   # These are published by Replit and trusted — the supply-chain attack vector
