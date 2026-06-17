@@ -5,7 +5,8 @@
 FROM node:22-slim AS builder
 
 # Enable corepack so we can use pnpm without a separate install step
-RUN corepack enable && corepack prepare pnpm@latest --activate
+# Pin to the same version used locally to avoid surprise breaking changes
+RUN corepack enable && corepack prepare pnpm@11.5.3 --activate
 
 WORKDIR /workspace
 
@@ -18,8 +19,11 @@ COPY lib/ lib/
 # Copy application packages
 COPY artifacts/ artifacts/
 
-# Install all workspace dependencies
-RUN pnpm install --frozen-lockfile
+# Install all workspace dependencies.
+# --ignore-scripts skips postinstall scripts across all packages, which avoids
+# pnpm v10+ lockfile-based build-approval checks under --frozen-lockfile.
+# esbuild is then explicitly rebuilt so its native binary gets linked.
+RUN pnpm install --frozen-lockfile --ignore-scripts && pnpm rebuild esbuild
 
 # Build shared TypeScript library packages
 RUN pnpm run typecheck:libs
